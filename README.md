@@ -1,6 +1,11 @@
 # Drones for deliveries
 This application uses 20 Drones simultaneously and each drone delivers until 3 lunches.
 
+La empresa “Su corrientazo a domicilio” ha contratado a S4N para el desarrollo de
+una aplicación capaz de operar 20 drones en simultáneo para que haga entrega de
+almuerzos a diferentes direcciones en la ciudad de Bogotá.
+
+
 Technolgies used:
 -----------------------
 1. JDK 8
