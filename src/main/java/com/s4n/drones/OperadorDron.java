@@ -7,7 +7,8 @@ import com.s4n.drones.exception.MaximosAlmuerzosException;
 import com.s4n.drones.exception.MovimientoNoPermitidoException;
 import com.s4n.drones.model.Dron;
 import com.s4n.drones.model.Posicion;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 import java.io.FileInputStream;
 import java.io.PrintWriter;
@@ -20,7 +21,7 @@ import java.util.Scanner;
  */
 public class OperadorDron extends Thread {
 
-    private final static Logger LOGGER = Logger.getLogger(OperadorDron.class);
+    private final static Logger LOGGER = LogManager.getLogger(OperadorDron.class);
 
     private Dron dron;
 

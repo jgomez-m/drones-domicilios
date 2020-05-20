@@ -5,7 +5,8 @@ import com.s4n.drones.enumeration.Orientacion;
 import com.s4n.drones.model.Dron;
 import com.s4n.drones.model.Posicion;
 import com.s4n.drones.util.DronesUtil;
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 /**
  * Clase Main de la Aplicacion
@@ -13,7 +14,7 @@ import org.apache.log4j.Logger;
  */
 public class Main {
 
-    private final static Logger LOGGER = Logger.getLogger(Main.class);
+    private final static Logger LOGGER = LogManager.getLogger(Main.class);
 
     public static void main(String args[]) {
         try {
