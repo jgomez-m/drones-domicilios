@@ -5,7 +5,8 @@ Technolgies used:
 -----------------------
 1. JDK 8
 2. Maven 3
-5. Junit 4
+3. Junit 4
+4. Log4j 2
 
 Steps to run and test the application:
 -----------------------
